@@ -1,0 +1,78 @@
+Sun Jun 11 13:39:34 2023       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA GeForce ...  Off  | 00000000:02:00.0 Off |                  N/A |
+| 28%   40C    P0    38W / 180W |      0MiB /  8192MiB |      1%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+Running-1
+Running-2
+ControlLDM: Running in eps-prediction mode
+Setting up MemoryEfficientCrossAttention. Query dim is 320, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 320, context_dim is 768 and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 320, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 320, context_dim is 768 and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 768 and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 768 and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 768 and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 768 and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 768 and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 768 and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 768 and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 768 and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 768 and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 768 and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 768 and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 320, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 320, context_dim is 768 and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 320, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 320, context_dim is 768 and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 320, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 320, context_dim is 768 and using 8 heads.
+DiffusionWrapper has 859.52 M params.
+making attention of type 'vanilla-xformers' with 512 in_channels
+building MemoryEfficientAttnBlock with 512 in_channels...
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla-xformers' with 512 in_channels
+building MemoryEfficientAttnBlock with 512 in_channels...
+Setting up MemoryEfficientCrossAttention. Query dim is 320, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 320, context_dim is 768 and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 320, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 320, context_dim is 768 and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 768 and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 768 and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 768 and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 768 and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 8 heads.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 768 and using 8 heads.
+Loaded model config from [./models/cldm_v15.yaml]
+Loaded state_dict from [./ControlFill/models/control_sd15_ini.ckpt]
+Training: 0it [00:00, ?it/s]Training:   0%|          | 0/50000 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/50000 [00:00<?, ?it/s] 
